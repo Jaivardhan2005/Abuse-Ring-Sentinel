@@ -1,0 +1,686 @@
+{
+  "runtime_seconds": 25.08,
+  "n_accounts": 1592,
+  "n_orders_analyzed": 7976,
+  "n_planted_rings": 8,
+  "n_planted_velocity_rings": 2,
+  "n_planted_legit_clusters": 5,
+  "recall": 1.0,
+  "classic_recall": 1.0,
+  "velocity_recall": 1.0,
+  "precision": 1.0,
+  "rings_found": [
+    "ring_01",
+    "ring_02",
+    "ring_03",
+    "ring_04",
+    "ring_05",
+    "ring_06",
+    "ring_07",
+    "ring_08"
+  ],
+  "rings_missed": [],
+  "velocity_rings_found": [
+    "velocity_01",
+    "velocity_02"
+  ],
+  "velocity_rings_missed": [],
+  "false_positive_clusters": [],
+  "n_wrongly_flagged_accounts": 0,
+  "false_positive_cost_inr": 0.0,
+  "failure_case": "No misses or false positives on this run, but cluster_012 (score 47.3, n=14) sits closest to the 60%-overlap flag threshold without tripping it or the dampener \u2014 the honest margin of safety is thin here, not zero.",
+  "dampening_saves": [
+    {
+      "cluster_id": "cluster_013",
+      "size": 35,
+      "suspicion_score": 56.5,
+      "reason": "35 accounts share delivery address, with a 26% return rate across their orders. Flag suppressed: sharing is limited to a weak attribute (likely a shared address such as a hostel/office) and behavior is within normal bounds."
+    }
+  ],
+  "baseline_comparison": {
+    "n_flagged_groups": 6,
+    "rings_caught": 0,
+    "n_rings_total": 8,
+    "legit_accounts_wrongly_flagged": 81
+  },
+  "held_out_seed": 2026,
+  "held_out_recall": 1.0,
+  "held_out_precision": 1.0,
+  "held_out_fp_cost_inr": 0.0,
+  "robustness": {
+    "seeds": [
+      {
+        "seed": 42,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 7,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 123,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 999,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 2026,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 31,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 88,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 555,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 2024,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 17,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 0.909,
+        "n_wrongly_flagged_accounts": 34,
+        "false_positive_cost_inr": 61200.0,
+        "false_positive_clusters": [
+          "cluster_013"
+        ],
+        "dampening_saves": 0
+      },
+      {
+        "seed": 1,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 2,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 3,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 4,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      },
+      {
+        "seed": 5,
+        "recall": 1.0,
+        "classic_recall": 1.0,
+        "velocity_recall": 1.0,
+        "precision": 1.0,
+        "n_wrongly_flagged_accounts": 0,
+        "false_positive_cost_inr": 0.0,
+        "false_positive_clusters": [],
+        "dampening_saves": 1
+      }
+    ],
+    "summary": {
+      "n_seeds": 15,
+      "mean_recall": 1.0,
+      "min_recall": 1.0,
+      "mean_precision": 0.994,
+      "min_precision": 0.909,
+      "clean_runs": 14,
+      "runs_with_false_positives": 1,
+      "failing_seeds": [
+        17
+      ]
+    }
+  },
+  "bug_replay": {
+    "n_seeds": 40,
+    "old_rule_clean_runs": 17,
+    "new_rule_clean_runs": 38,
+    "old_rule_false_positive_rate": 0.575,
+    "new_rule_false_positive_rate": 0.05,
+    "old_rule_total_fp_accounts": 837,
+    "new_rule_total_fp_accounts": 66,
+    "per_seed": [
+      {
+        "seed": 1,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 2,
+        "old_rule_fp_accounts": 39,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 3,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 4,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 5,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 6,
+        "old_rule_fp_accounts": 30,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 7,
+        "old_rule_fp_accounts": 37,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 8,
+        "old_rule_fp_accounts": 36,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 9,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 10,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 11,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 12,
+        "old_rule_fp_accounts": 36,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 13,
+        "old_rule_fp_accounts": 32,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 14,
+        "old_rule_fp_accounts": 39,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 15,
+        "old_rule_fp_accounts": 32,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 16,
+        "old_rule_fp_accounts": 39,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 17,
+        "old_rule_fp_accounts": 34,
+        "new_rule_fp_accounts": 34
+      },
+      {
+        "seed": 18,
+        "old_rule_fp_accounts": 42,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 19,
+        "old_rule_fp_accounts": 36,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 20,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 21,
+        "old_rule_fp_accounts": 42,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 22,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 23,
+        "old_rule_fp_accounts": 33,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 24,
+        "old_rule_fp_accounts": 34,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 25,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 26,
+        "old_rule_fp_accounts": 41,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 27,
+        "old_rule_fp_accounts": 32,
+        "new_rule_fp_accounts": 32
+      },
+      {
+        "seed": 28,
+        "old_rule_fp_accounts": 41,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 29,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 30,
+        "old_rule_fp_accounts": 41,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 31,
+        "old_rule_fp_accounts": 36,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 32,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 33,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 34,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 35,
+        "old_rule_fp_accounts": 37,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 36,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 37,
+        "old_rule_fp_accounts": 33,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 38,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 39,
+        "old_rule_fp_accounts": 35,
+        "new_rule_fp_accounts": 0
+      },
+      {
+        "seed": 40,
+        "old_rule_fp_accounts": 0,
+        "new_rule_fp_accounts": 0
+      }
+    ]
+  },
+  "distribution_shift": [
+    {
+      "shift": "baseline (unshifted)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "smaller rings (3-6 members)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "larger rings (18-30 members)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "noisier rings (35% attribute noise)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "very noisy rings (50% attribute noise)",
+      "recall": 0.9,
+      "classic_recall": 0.875,
+      "velocity_recall": 1.0,
+      "precision": 0.9,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "more background collisions (8%)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "smaller velocity rings (3-5 members)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "wider velocity age window (18 days)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "more lookalike clusters (12x)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    },
+    {
+      "shift": "shorter observation window (21 days)",
+      "recall": 1.0,
+      "classic_recall": 1.0,
+      "velocity_recall": 1.0,
+      "precision": 1.0,
+      "n_wrongly_flagged_accounts": 0
+    }
+  ],
+  "scale_benchmark": {
+    "measured_via": "python3 -m abuse_ring_sentinel.benchmark 1400 10000 100000 150000",
+    "note": "Run separately from the main pipeline \u2014 see README Section 5.",
+    "rows": [
+      {
+        "accounts": 1592,
+        "orders": 7976,
+        "total_seconds": 0.34,
+        "peak_mb": 90.7,
+        "recall": 1.0,
+        "precision": 1.0
+      },
+      {
+        "accounts": 11349,
+        "orders": 56561,
+        "total_seconds": 2.91,
+        "peak_mb": 150.0,
+        "recall": 1.0,
+        "precision": 1.0
+      },
+      {
+        "accounts": 113734,
+        "orders": 568454,
+        "total_seconds": 40.75,
+        "peak_mb": 402.9,
+        "recall": 1.0,
+        "precision": 0.996
+      },
+      {
+        "accounts": 170717,
+        "orders": 853318,
+        "total_seconds": 77.96,
+        "peak_mb": 1109.0,
+        "recall": 1.0,
+        "precision": 0.995
+      }
+    ]
+  },
+  "threshold_sweep": [
+    {
+      "threshold": 20,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 25,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 30,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 35,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 40,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 45,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 50,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 55,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 60,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 65,
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_flagged": 10,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 70,
+      "recall": 0.9,
+      "precision": 1.0,
+      "n_flagged": 9,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 75,
+      "recall": 0.7,
+      "precision": 1.0,
+      "n_flagged": 7,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 80,
+      "recall": 0.6,
+      "precision": 1.0,
+      "n_flagged": 6,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 85,
+      "recall": 0.2,
+      "precision": 1.0,
+      "n_flagged": 2,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    },
+    {
+      "threshold": 90,
+      "recall": 0.0,
+      "precision": null,
+      "n_flagged": 0,
+      "n_wrongly_flagged_accounts": 0,
+      "false_positive_cost_inr": 0.0
+    }
+  ]
+}

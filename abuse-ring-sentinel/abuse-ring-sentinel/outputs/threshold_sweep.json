@@ -1,0 +1,122 @@
+[
+  {
+    "threshold": 20,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 25,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 30,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 35,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 40,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 45,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 50,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 55,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 60,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 65,
+    "recall": 1.0,
+    "precision": 1.0,
+    "n_flagged": 10,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 70,
+    "recall": 0.9,
+    "precision": 1.0,
+    "n_flagged": 9,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 75,
+    "recall": 0.7,
+    "precision": 1.0,
+    "n_flagged": 7,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 80,
+    "recall": 0.6,
+    "precision": 1.0,
+    "n_flagged": 6,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 85,
+    "recall": 0.2,
+    "precision": 1.0,
+    "n_flagged": 2,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  },
+  {
+    "threshold": 90,
+    "recall": 0.0,
+    "precision": null,
+    "n_flagged": 0,
+    "n_wrongly_flagged_accounts": 0,
+    "false_positive_cost_inr": 0.0
+  }
+]
